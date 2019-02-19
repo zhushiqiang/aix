@@ -1,0 +1,26 @@
+{
+    "name": "xinchan\/aix",
+    "description": "Package description here.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhushiqiang",
+            "email": "zhushiqiang@xinchanedu.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Xinchan\\Aix\\": "./src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Xinchan\\Aix\\ServiceProvider"
+            ]
+        }
+    }
+}
